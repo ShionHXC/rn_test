@@ -14,11 +14,15 @@ import {
 import ViewTest from "./common/View"
 import TextTest from "./common/Text"
 import MainList from "./common/List1"
-import Header from './common/Header';
+import Header from './common/Header'
 import Nav from "./common/Nav"
 import TextInputTest from "./common/TextInput"
-import Touchable from './common/Touchable';
+import Touchable from './common/Touchable'
 import MyImage from "./common/Image"
+import WebviewModule from "./common/Webview"
+import GoodsList from "./common/GoodsList"
+import UserInfo from "./common/AsyncStorage"
+import CurrentState from "./common/CurrentState"
 export default class RootItem extends Component {
     render() {
         return (
@@ -29,7 +33,7 @@ export default class RootItem extends Component {
                     translucent={false}
                     backgroundColor={"#000"}
                 />
-                <MyImage/>
+                <CurrentState/>
             </View>
         );
     }
